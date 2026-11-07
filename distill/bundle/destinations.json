@@ -1,0 +1,50 @@
+{
+  "bundle_id": "bundle.novel-forge",
+  "destinations": {
+    "cap.novel-forge.project-bootstrap": {
+      "served_by": "novel-forge"
+    },
+    "cap.novel-forge.trend-scan": {
+      "served_by": "novel-forge"
+    },
+    "cap.novel-forge.deconstruct": {
+      "served_by": "novel-forge"
+    },
+    "cap.novel-forge.outline-architecture": {
+      "served_by": "novel-forge"
+    },
+    "cap.novel-forge.state-ledger": {
+      "served_by": "novel-forge"
+    },
+    "cap.novel-forge.information-boundary": {
+      "served_by": "novel-forge"
+    },
+    "cap.novel-forge.foreshadow-ledger": {
+      "served_by": "novel-forge"
+    },
+    "cap.novel-forge.chapter-craft": {
+      "served_by": "novel-forge"
+    },
+    "cap.novel-forge.short-form-emotion": {
+      "served_by": "novel-forge"
+    },
+    "cap.novel-forge.continuation": {
+      "served_by": "novel-forge"
+    },
+    "cap.novel-forge.deslop": {
+      "served_by": "novel-forge"
+    },
+    "cap.novel-forge.review-gate": {
+      "served_by": "novel-forge"
+    },
+    "cap.novel-forge.parallel-writing": {
+      "served_by": "novel-forge"
+    },
+    "cap.novel-forge.import-legacy": {
+      "served_by": "novel-forge"
+    },
+    "cap.novel-forge.failure-patterns": {
+      "served_by": "novel-forge"
+    }
+  }
+}

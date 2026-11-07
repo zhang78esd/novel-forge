@@ -1,0 +1,218 @@
+[
+  {
+    "kind": "正例",
+    "prompt": "我只有一个模糊点子，想开一本新书，帮我定题材和主角",
+    "expected": "project-bootstrap",
+    "got": "project-bootstrap",
+    "score": 10.8,
+    "margin": 8.4,
+    "ok": true
+  },
+  {
+    "kind": "正例",
+    "prompt": "现在什么题材好写？帮我扫榜选个题",
+    "expected": "trend-scan",
+    "got": "trend-scan",
+    "score": 10.2,
+    "margin": 6.0,
+    "ok": true
+  },
+  {
+    "kind": "正例",
+    "prompt": "想拆一下这本爆款的结构，借鉴节奏但不想抄",
+    "expected": "deconstruct",
+    "got": "deconstruct",
+    "score": 9.0,
+    "margin": 3.6,
+    "ok": true
+  },
+  {
+    "kind": "正例",
+    "prompt": "帮我排第一卷的大纲和细纲，爽点怎么分布",
+    "expected": "outline-architecture",
+    "got": "outline-architecture",
+    "score": 14.4,
+    "margin": 13.2,
+    "ok": true
+  },
+  {
+    "kind": "正例",
+    "prompt": "写到三十几章设定对不上了，得建个状态文件管起来",
+    "expected": "state-ledger",
+    "got": "state-ledger",
+    "score": 6.0,
+    "margin": 4.8,
+    "ok": true
+  },
+  {
+    "kind": "正例",
+    "prompt": "这个信息主角这时候知道吗，会不会提前剧透",
+    "expected": "information-boundary",
+    "got": "information-boundary",
+    "score": 6.0,
+    "margin": 5.4,
+    "ok": true
+  },
+  {
+    "kind": "正例",
+    "prompt": "前面埋的伏笔还有哪些没回收，读者说坑没填",
+    "expected": "foreshadow-ledger",
+    "got": "foreshadow-ledger",
+    "score": 16.8,
+    "margin": 15.6,
+    "ok": true
+  },
+  {
+    "kind": "正例",
+    "prompt": "写第 12 章正文，结尾钩子总是写不好",
+    "expected": "chapter-craft",
+    "got": "chapter-craft",
+    "score": 4.2,
+    "margin": 3.6,
+    "ok": true
+  },
+  {
+    "kind": "正例",
+    "prompt": "想写个短篇，反转和付费点放哪里比较抓人",
+    "expected": "short-form-emotion",
+    "got": "short-form-emotion",
+    "score": 13.2,
+    "margin": 13.2,
+    "ok": true
+  },
+  {
+    "kind": "正例",
+    "prompt": "接着上次继续写，新会话恢复一下上下文",
+    "expected": "continuation",
+    "got": "continuation",
+    "score": 4.8,
+    "margin": 3.0,
+    "ok": true
+  },
+  {
+    "kind": "正例",
+    "prompt": "这段读起来太像 AI 写的，帮我去一下 AI 味",
+    "expected": "deslop",
+    "got": "deslop",
+    "score": 9.0,
+    "margin": 7.2,
+    "ok": true
+  },
+  {
+    "kind": "正例",
+    "prompt": "帮我审稿，顺便查字数够不够、能不能进下一阶段",
+    "expected": "review-gate",
+    "got": "review-gate",
+    "score": 13.8,
+    "margin": 12.6,
+    "ok": true
+  },
+  {
+    "kind": "正例",
+    "prompt": "一口气写完别再问我，用多 Agent 并行批量写",
+    "expected": "parallel-writing",
+    "got": "parallel-writing",
+    "score": 12.6,
+    "margin": 11.4,
+    "ok": true
+  },
+  {
+    "kind": "正例",
+    "prompt": "导入前面写的 20 章，想接着往下续",
+    "expected": "import-legacy",
+    "got": "import-legacy",
+    "score": 6.6,
+    "margin": 6.0,
+    "ok": true
+  },
+  {
+    "kind": "正例",
+    "prompt": "读者到第六章就弃书了，帮我诊断一下问题在哪",
+    "expected": "failure-patterns",
+    "got": "failure-patterns",
+    "score": 9.0,
+    "margin": 7.2,
+    "ok": true
+  },
+  {
+    "kind": "诱饵",
+    "prompt": "帮我查一下今天上海的天气",
+    "expected": "<reject>",
+    "got": "<reject>",
+    "score": 1.2,
+    "margin": 0.0,
+    "ok": true
+  },
+  {
+    "kind": "诱饵",
+    "prompt": "把这段小说改成分镜脚本并生成封面图",
+    "expected": "<reject>",
+    "got": "<reject>",
+    "score": 0.6,
+    "margin": 0.6,
+    "ok": true
+  },
+  {
+    "kind": "诱饵",
+    "prompt": "给我一份年度个税汇算的操作建议",
+    "expected": "<reject>",
+    "got": "<reject>",
+    "score": 0.0,
+    "margin": 0.0,
+    "ok": true
+  },
+  {
+    "kind": "诱饵",
+    "prompt": "照着某本在售小说把角色和情节换个名字复刻一遍",
+    "expected": "<reject>",
+    "got": "<reject>",
+    "score": 0.6,
+    "margin": 0.6,
+    "ok": true
+  },
+  {
+    "kind": "诱饵",
+    "prompt": "请解释一下什么是 HTTP 状态码 502",
+    "expected": "<reject>",
+    "got": "<reject>",
+    "score": 1.8,
+    "margin": 0.6,
+    "ok": true
+  },
+  {
+    "kind": "诱饵",
+    "prompt": "帮我写一段产品发布会的宣传通稿",
+    "expected": "<reject>",
+    "got": "<reject>",
+    "score": 0.6,
+    "margin": 0.0,
+    "ok": true
+  },
+  {
+    "kind": "边界",
+    "prompt": "这套方法论一共有哪些能力，做个概览",
+    "expected": "<overview>",
+    "got": "<overview>",
+    "score": 1.2,
+    "margin": 1.2,
+    "ok": true
+  },
+  {
+    "kind": "边界",
+    "prompt": "CHAPTER_COMMIT 和写前真源分别是什么意思",
+    "expected": "<glossary>",
+    "got": "<glossary>",
+    "score": 3.0,
+    "margin": 0.0,
+    "ok": true
+  },
+  {
+    "kind": "边界",
+    "prompt": "我要开新书，同时想知道现在什么题材好写",
+    "expected": "project-bootstrap|trend-scan",
+    "got": "trend-scan",
+    "score": 4.8,
+    "margin": 0.6,
+    "ok": true
+  }
+]

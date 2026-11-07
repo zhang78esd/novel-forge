@@ -1,0 +1,7 @@
+  skill: .staging-run-20261107-144417-d530e3-novel-forge   72 行    7606 字节
+
+共扫描 20 个 .md，其中 1 个 SKILL.md
+WARN  [name-dir] D:\漫剧\小说\.staging-run-20261107-144417-d530e3-novel-forge\SKILL.md: name `novel-forge` 与目录名 `.staging-run-20261107-144417-d530e3-novel-forge` 不一致
+ERROR [broken-ref] D:\漫剧\小说\.staging-run-20261107-144417-d530e3-novel-forge\references\capabilities\state-ledger.md: `references/dynamic-state-template.md` 不存在
+
+结果: 1 errors, 1 warnings
