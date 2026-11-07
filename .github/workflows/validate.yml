@@ -1,0 +1,22 @@
+name: validate skill
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Cangjie skill pack validation
+        run: |
+          git clone --depth 1 https://github.com/kangarooking/cangjie-skill.git "$RUNNER_TEMP/cangjie"
+          python "$RUNNER_TEMP/cangjie/scripts/validate_skill_pack.py" "$GITHUB_WORKSPACE"
+      - name: RIA++ capability card contract
+        run: python .github/scripts/check_cards.py
