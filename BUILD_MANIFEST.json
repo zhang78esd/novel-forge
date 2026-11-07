@@ -1,0 +1,45 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\chapter-craft.md": "615f6dcd5fc06c01a50398da44f4e929889276cea2d562f562b183d5743d01d5",
+    "references\\capabilities\\continuation.md": "309063b652fe8ff55b81610500d4bce34a1bdb46d219a957da7924d07886b1fa",
+    "references\\capabilities\\deconstruct.md": "6cb723622c4ee80a8a4a3f12ec4b6868df8db10844f936561fa39fb90ea79e9b",
+    "references\\capabilities\\deslop.md": "5a5fea64a7eab90ac49cda9dab93eb964dea0061a39cfa31addc90101a73236e",
+    "references\\capabilities\\failure-patterns.md": "c54cd9683f9c770dc5b3d8e289ecc449d931fa135b2a504fc8bc31b532f9f007",
+    "references\\capabilities\\foreshadow-ledger.md": "23d77e65b6f509ae56fd63c0d8ee3d1ce27a7262dbe9e535d85bbb8db3e10c52",
+    "references\\capabilities\\import-legacy.md": "7da97f8a194467bca78d80ed3eee998bd8e6963d5b0812c1b9c3ce001837e4dd",
+    "references\\capabilities\\information-boundary.md": "ac982f2f1e4931006dc1ab853e1ac162ceb471da8aaf35c026a1840818ce41b1",
+    "references\\capabilities\\outline-architecture.md": "c084b145a85138ec8e559720965ce8625b2da764c2708c916247bc8d91894082",
+    "references\\capabilities\\parallel-writing.md": "99243af1c21e18cb9b5abcb4dc5f0f3a14fc60c4009e9be96a858e147dfe05e8",
+    "references\\capabilities\\project-bootstrap.md": "5dbc01b6bbbf5b64da6b486783545c69d1c71f2ea03e20eb1f9cabfd4aa8ec0b",
+    "references\\capabilities\\review-gate.md": "9d14d4baf6e86ae58ef5065e88c1c87b770468d71ef4072756cff974cfdf2c88",
+    "references\\capabilities\\short-form-emotion.md": "a9eaf42ffe0e11994924cfb3ca601ff340af3f3dbc5a1442265ce3036cbb2bb5",
+    "references\\capabilities\\state-ledger.md": "b46d96dc15ab41280600cc413f6a977a6985081c266a759944cfac605bb01b84",
+    "references\\capabilities\\trend-scan.md": "4e7eb0dca7215799b67181cf8b336381780e8f931b9a5960b07abe135930ee6c",
+    "references\\capability-index.md": "44183e062a181a57d2938c0c6dc6e578689c50012dcf77e44c7559cf9f9a2d4d",
+    "references\\cheatsheet.md": "ff7fb9f70546f9edde7e57cc78c72f026f7313cac3b9924dcddd81a8b066dabf",
+    "references\\glossary.md": "87ed727fe15db309a4369f7abe8c0865bf6e45401a64d94d261aa9da0ee420f8",
+    "references\\overview.md": "2ea53fa5ebe601724b764bf035760ab4a6c9d12a11aeb06e08ad5581a64f8f4d",
+    "SKILL.md": "8b0e36fe5d226619cdd2785c487bcd09c6476bcbdc694466ecc0ff47e6fe276f"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.novel-forge",
+  "bundle_sha256": "a40003f579c3547503a610a9bc08f4adb7a1c438c297f97b64230f49d9fecfac",
+  "variant": "single",
+  "run_id": "run-20261107-144454-14679c",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 0,
+    "capability_count": 15,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}
